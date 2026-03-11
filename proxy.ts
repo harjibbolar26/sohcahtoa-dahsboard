@@ -22,7 +22,7 @@ import { AUTH_COOKIE, REFRESH_COOKIE, decodeToken } from "@/lib/auth";
  * - This prevents unwanted logouts on page refresh when session is still valid
  */
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Only protect /dashboard routes

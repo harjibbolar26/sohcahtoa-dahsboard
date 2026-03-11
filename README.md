@@ -59,7 +59,7 @@ src/
 ├── types/
 │   └── index.ts                      # TypeScript types
 │
-└── middleware.ts                     # Route protection (Edge Runtime)
+└── proxy.ts                     # Route protection (Edge Runtime)
 ```
 
 ## Key Features
